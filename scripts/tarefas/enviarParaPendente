@@ -1,0 +1,14 @@
+function enviarParaPendente () {
+    let tarefa = document.getElementById(tarefa.id);
+    let adicionandoCompletar.innerHTML=`<img id="completar" src="/checkpoint2/assets/completar.png" onclick="alterarStatus(${tarefa.id}, ${tarefa.description}, true)">`
+
+    tarefa.removeChild[4]
+    tarefa.appendChild(adicionandoCompletar)
+
+// peguei a tarefa conforme o tarefa.id, adicionei a imagem para enviar para completo, e removi a imagem para enviar para pendente
+
+
+// abaixo pensei em chamar a função tarefasPendentes.js, será que funciona??
+// tarefasPendentes(tarefa)
+
+}
